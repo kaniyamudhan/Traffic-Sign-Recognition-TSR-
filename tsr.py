@@ -1,3 +1,4 @@
+#by kaniyamudhan.Y
 from PyQt5 import QtCore, QtGui, QtWidgets
 from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPool2D, Dense, Flatten, Dropout
@@ -90,7 +91,7 @@ print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
 y_train = to_categorical(y_train, 43)
 y_test = to_categorical(y_test, 43)
 
-
+#by kaniyamudhan.Y
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -166,7 +167,7 @@ class Ui_MainWindow(object):
                                    QtCore.Qt.KeepAspectRatio)  # Scale pixmap
             self.imageLbl.setPixmap(pixmap)  # Set the pixmap onto the label
             self.imageLbl.setAlignment(QtCore.Qt.AlignCenter)  # Align the label to center
-
+#by kaniyamudhan.Y
     def classifyFunction(self):
         model = load_model('my_model.h5')
         print("Loaded model from disk");
@@ -211,7 +212,7 @@ class Ui_MainWindow(object):
 
         history = model.fit(X_train, y_train, batch_size=32, epochs=5, validation_data=(X_test, y_test))
         model.save("my_model.h5")
-
+#by kaniyamudhan.Y
         plt.figure(0)
         plt.plot(history.history['accuracy'], label='training accuracy')
         plt.plot(history.history['val_accuracy'], label='val accuracy')
@@ -231,7 +232,7 @@ class Ui_MainWindow(object):
         plt.savefig('Loss.png')
         self.textEdit.setText("Saved Model & Graph to disk")
 
-
+#by kaniyamudhan.Y
 if __name__ == "__main__":
     import sys
 
