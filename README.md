@@ -15,3 +15,5 @@
 🚀 GUI Initialization and Event Handling: The PyQt application is initialized, and the GUI components are set up. The application is ready to respond to user interactions.
 
 This breakdown showcases the different stages of the code using fun emojis! 😊
+![Screenshot (266)](https://github.com/kaniyamudhan/Traffic-Sign-Recognition-TSR-/assets/112994943/b2bcc136-56c4-4788-9927-60ade51bfbf3)
+![Screenshot (265)](https://github.com/kaniyamudhan/Traffic-Sign-Recognition-TSR-/assets/112994943/c6e95202-dec4-45b5-8e9b-10dc0a1dc79b)
