@@ -23,12 +23,11 @@ This is a PyQt5 application for road sign recognition. It uses a trained model t
 - Pillow (PIL)
 
 ## Installation
-
-1. Clone the repository:
+Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/road-sign-recognition.git
-   
+   ```
 ## Install the required dependencies:
    ```bash
    pip install PyQt5 Keras scikit-learn numpy matplotlib pyttsx3 Pillow
