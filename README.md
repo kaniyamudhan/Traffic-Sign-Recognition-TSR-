@@ -52,4 +52,5 @@ The dataset used for training: German Traffic Sign Recognition Benchmark
 
 
 
-@learnfrompantechsolution
+## learnfrom
+pantechsolution
