@@ -32,12 +32,12 @@ This is a PyQt5 application for road sign recognition. It uses a trained model t
 ## Install the required dependencies:
    ```bash
    pip install PyQt5 Keras scikit-learn numpy matplotlib pyttsx3 Pillow
-```
+   ```
 ## Run the application:
 
-```bash
+   ```bash
 python main.py
-```
+   ```
 ## Usage
 Click on "Browse Image" to select an image for classification.
 Click on "Classify" to classify the loaded image.
